@@ -8,7 +8,7 @@
  * #DBD56E - Straw
  */
 
-:root {
+ :root {
     font-family: sans-serif;
     background-color: #F2EFEA;
     color: black;
@@ -33,8 +33,9 @@ h1 {
 }
 
 h2 {
-    border-bottom: 0.1em solid #66D7D1;
-    padding: 0.25em;
+    font-style: italic; /* New addition */
+    border-bottom: 0.1em solid #2c3e50; /* Darker border-bottom */
+    padding: 0.5em; /* Increased padding */
     margin: 1.6em 0;
 }
 
@@ -43,7 +44,7 @@ section p {
 }
 
 .project {
-    background-color: #403D58;
+    background-color: #4CAF50; /* Changed to a green shade */
     color: #F2EFEA;
     padding: 0.5em 2em;
     border-radius: 0.5em;
